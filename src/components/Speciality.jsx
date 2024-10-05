@@ -11,7 +11,7 @@ const Speciality = () => {
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">        
         {specialityData.map((item, index) => (
-          <Link onClick={()=>scrollTo(0,0)} key={index} to={`/doctors/${item.speciality}`} className="flex flex-col items-center justify-center p-4 rounded-md hover:bg-gray-100 shadow-md">
+          <Link onClick={()=>scrollTo(0,0)} key={index} to={`/doctor/${item.speciality}`} className="flex flex-col items-center justify-center p-4 rounded-md hover:bg-gray-100 shadow-md">
             <img className="w-16 h-16 mx-auto mb-2 object-cover rounded-full" src={item.image} alt="" />
             <p className="text-center text-base font-medium">{item.speciality}</p>
           </Link>

@@ -19,7 +19,7 @@ const TopDoctors = () => {
                             <div className={'bg-white w-full text-center p-3 flex flex-col items-start'}>
                                 <div className={'flex items-center justify-center gap-2 mb-2 sm:mb-3'}>
                                     <p className={'rounded-full bg-green-700 w-[5px] h-[5px]'}></p>
-                                    <p className={'text-green-500 font-medium text-sm lg:text-xl xl:text-sm'}>Active</p>
+                                    <p className={'text-green-500 font-medium text-sm lg:text-xl xl:text-sm'}>Available</p>
                                 </div>
                                 <p className={'text-xl font-medium mb-1 sm:mb-1 xl:text-sm'}>{item.name}</p>
                                 <p className={'text-gray-500 text-sm xl:text-sm'}>{item.speciality}</p>
